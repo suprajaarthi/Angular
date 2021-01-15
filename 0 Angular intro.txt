@@ -1,0 +1,30 @@
+Framework to build clientside applications
+-Relies heavily on JS
+
+Great for SPAs 
+-Parts of view get refreshed asynchronously
+-Neednot reload entire page
+
+Modular approach 
+
+- by design 
+- clear structure
+
+Re-usable code 
+-Lot of inbuilt components 
+-Reusable code 
+
+Development quicker & faster
+-Inbuilt capabilities such as 
+-Validation 
+-Routing 
+
+Unit testable
+-Easily maintainable
+
+Google+Microsoft
+
+Released in 2010 to build ERP
+2016 - Angular version 2 
+
+
