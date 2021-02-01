@@ -31,6 +31,8 @@
 - Testing Angular Applications
 - Building and Deployment 
 
+Resource Materials
+- https://tinyurl.com/y5q6gsqp  => About Full stack web 
 
 
 Then we'll learn about Ionic and NativeScript. 
