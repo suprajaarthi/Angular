@@ -3,7 +3,7 @@
 
 <b>Course Outline</b>
 - Angular material - UI using Angular Components 
-- Angular Flex layout
+- Angular Flex layout - Does exactly the same as Bootstrap - 4 
 - Typescript basics 
 
 <b>Module 2 </b>
@@ -19,10 +19,11 @@
 - Angular & RxJS 
 
 <b> Module 4 </b>
-- Client server communication 
-- Angular & HTTP
+- Client server communication => How angular can ccommunicate with server side and then used to render views 
+- Angular & HTTP => How changes will be reflected 
 - Angular & REST 
-- Animation & Directives 
+- Animation & Directives  => Attribute & Structural directives 
+- Testing Angular Applications
 - Building and Deployment 
 
 
