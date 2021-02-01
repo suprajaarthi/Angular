@@ -12,5 +12,11 @@
 - Routing 
 - SPA
 
+<b> Module 3 </b>
+- Angular Template driven forms 
+- Angular Reactive forms 
+- Angular & Promise 
+- Angular & RxJS 
+
 Then we'll learn about Ionic and NativeScript. 
 And then also Server-side development using Node and Node ecosystem.  
