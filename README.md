@@ -18,5 +18,14 @@
 - Angular & Promise 
 - Angular & RxJS 
 
+<b> Module 4 </b>
+- Client server communication 
+- Angular & HTTP
+- Angular & REST 
+- Animation & Directives 
+- Building and Deployment 
+
+
+
 Then we'll learn about Ionic and NativeScript. 
 And then also Server-side development using Node and Node ecosystem.  
