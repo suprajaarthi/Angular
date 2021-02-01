@@ -6,6 +6,11 @@
 - Angular Flex layout - Does exactly the same as Bootstrap - 4 
 - Typescript basics 
 
+<b> Module 1 </b>
+- Full stack Web Development - The Big Picture
+- Intro to Angular
+- Angular Components 
+
 <b>Module 2 </b>
 - Data binding 
 - Angular Service basics 
