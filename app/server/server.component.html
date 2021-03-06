@@ -1,0 +1,26 @@
+<h3>SERVER component</h3>
+<!-- <input type="text" class="form-control" name="" (input)="onUpdateServerName($event)">-->
+<input type="text" class="form-control" name="" 
+[(ngModel)]="serverName">
+
+<p>{{ serverName }}</p>
+
+<button class="btn btn-primary" [disabled]="!allowNewServer"
+(click)="onCreateServer()">Add Server</button>
+
+<!-- <p>Server id is {{ serverId }} and serverStatus is {{ serverStatus }}</p> -->
+<!-- <p [innerText]="allowNewServer"></p> -->
+<!-- <p>Server id is {{ serverId }} and serverStatus is {{ getServerstatus() }}</p> -->
+
+<p>{{ serverCreationStatus }}</p>
+<!-- 
+<button class="btn btn-primary" [disabled]="!allowUname"
+(click)="onCreateUname()">Add username </button>
+
+<input type="text" class="form-control" name="" 
+[(ngModel)]="uname">
+<p [innerText]="ustatus"></p> -->
+
+
+<p *ngif="serverCreated">Server is created , {{ serverName }}</p>
+
