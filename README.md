@@ -7,14 +7,16 @@
 <b> Databinding </b>
 
 ```javascript
-server.component.ts => 
+//server.component.ts => 
 import { Component , OnInit ,<b> Input </b>};
 // @Input is a decorator , without it element can't be imported
 @Input() element : {type:string,name:string,content: string};
 @Input('srvElem') element
 // using element is no longer possible , can be imported only using srvElem
- app.component.ts => serverElements = [{type:'server', name:'Server_tomcat' , content: 'For developers only'}];
- server.component.html => <app-server * ngFor ="let serverElement of serverElements " [element]="serverElements"></app-server>
+// app.component.ts 
+ serverElements = [{type:'server', name:'Server_tomcat' , content: 'For developers only'}];
+ //server.component.html  
+ <app-server * ngFor ="let serverElement of serverElements " [element]="serverElements"></app-server>
 
 ```
 <img src="fullstack.jpeg">
