@@ -4,8 +4,7 @@
 - cd my-first-project
 - ng serve
 
-<b> Databinding </b>
-
+<b> Databinding - To parse values from ts to html (Input) </b>
 ```javascript
 //server.component.ts => 
 import { Component , OnInit ,<b> Input </b>};
@@ -18,9 +17,22 @@ import { Component , OnInit ,<b> Input </b>};
  //server.component.html =>
  <app-server * ngFor ="let serverElement of serverElements " [element]="serverElements"></app-server>
  <app-server * ngFor ="let serverElement of serverElements " [srvElem]="serverElement"></app-server>
- 
+```
+<b> 2 way Databinding - To emit event / cache the data passed (Input) </b>
+```javascript
+// app.component.html =>
+<app-cockpit (serverCreated)="onServerAdded($event)"></app-cockpit>
+
+// app.component.ts  =>
+onServerAdded(serverData: {serverName:string, serverContent:string}){
+this.serverElements.push({
+type :'server',
+name : serverData.serverName,
+content : serverData.serverContent
+})
 
 ```
+
 <img src="fullstack.jpeg">
 
 <b>Course Outline</b>
