@@ -16,6 +16,7 @@ import { Component , OnInit ,<b> Input </b>};
 // app.component.ts 
  serverElements = [{type:'server', name:'Server_tomcat' , content: 'For developers only'}];
  //server.component.html  
+ 
  <app-server * ngFor ="let serverElement of serverElements " [element]="serverElements"></app-server>
  <app-server * ngFor ="let serverElement of serverElements " [srvElem]="serverElement"></app-server>
  
