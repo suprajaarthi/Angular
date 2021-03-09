@@ -34,7 +34,7 @@ content : serverData.serverContent
 //cockpit.component.ts 
 newserverName='';
 newserverContent='';
-serverCreated = new EventEmitter<serverName: string , serverContent: string}>();
+@Output() serverCreated = new EventEmitter<serverName: string , serverContent: string}>();
 
 onAddServer(){
 this.serverCreated.emit({
