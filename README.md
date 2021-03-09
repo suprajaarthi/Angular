@@ -22,7 +22,6 @@ import { Component , OnInit ,<b> Input </b>};
 ```javascript
 // app.component.html =>
 <app-cockpit (serverCreated)="onServerAdded($event)"></app-cockpit>
-
 // app.component.ts  =>
 onServerAdded(serverData: {serverName:string, serverContent:string}){
 this.serverElements.push({
