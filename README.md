@@ -1,4 +1,9 @@
 # Angular-Basics
+
+- ng new my-first-project
+- cd my-first-project
+- ng serve
+
 <img src="fullstack.jpeg">
 
 <b>Course Outline</b>
