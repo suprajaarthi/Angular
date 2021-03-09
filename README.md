@@ -31,6 +31,17 @@ name : serverData.serverName,
 content : serverData.serverContent
 })
 
+//cockpit.component.ts 
+newserverName='';
+newserverContent='';
+serverCreated = new EventEmitter<serverName: string , serverContent: string}>();
+
+onAddServer(){
+this.serverCreated.emit({
+serverName : this.newserverName,
+serverContent : this.newserverContent
+});
+}
 ```
 
 <img src="fullstack.jpeg">
