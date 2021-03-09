@@ -6,11 +6,13 @@
 
 <b> Databinding </b>
 
-- server.component.ts => import { Component , Onit ,<b> Input </b>};
-- server.component.ts => @Input() element : {type:string,name:string,content: string};
-- app.component.ts => serverElements = [{type:'server', name:'Server_tomcat' , content: 'For developers only'}];
-- server.component.html => <app-server * ngFor ="let serverElement of serverElements " [element]="serverElements"></app-server>
+```javascript
+server.component.ts => import { Component , Onit ,<b> Input </b>};
+ server.component.ts => @Input() element : {type:string,name:string,content: string};
+ app.component.ts => serverElements = [{type:'server', name:'Server_tomcat' , content: 'For developers only'}];
+ server.component.html => <app-server * ngFor ="let serverElement of serverElements " [element]="serverElements"></app-server>
 
+```
 <img src="fullstack.jpeg">
 
 <b>Course Outline</b>
