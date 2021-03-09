@@ -4,6 +4,12 @@
 - cd my-first-project
 - ng serve
 
+<b> Databinding </b>
+
+- server.component.ts => element : {type:string,name:string,content: string};
+- app.component.ts => serverElements = [{type:'server', name:'Server_tomcat' , content: 'For developers only'}];
+- server.component.html => <app-server * ngFor ="let serverElement of serverElements " [element]="serverElements"></app-server>
+
 <img src="fullstack.jpeg">
 
 <b>Course Outline</b>
