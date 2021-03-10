@@ -9,10 +9,12 @@
 ```javascript
 //server.component.ts => 
 import { Component , OnInit ,<b> Input </b>};
+
 // @Input is a decorator , without it element can't be imported
 @Input() element : {type:string,name:string,content: string};
 // if we use @Input('srvElem') element
 // using element is no longer possible , can be imported only using srvElem  => [srvElem]
+
 // app.component.ts  =>
  serverElements = [{type:'server', name:'Server_tomcat' , content: 'For developers only'}];
  //server.component.html =>
@@ -23,6 +25,7 @@ import { Component , OnInit ,<b> Input </b>};
 ```javascript
 // app.component.html =>
 <app-cockpit (serverCreated)="onServerAdded($event)"></app-cockpit>
+
 // app.component.ts  =>
 onServerAdded(serverData: {serverName:string, serverContent:string}){
 this.serverElements.push({
