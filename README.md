@@ -4,6 +4,7 @@
 - cd my-first-project
 - ng serve
 
+
 <b> Databinding - To parse values from ts to html (Input) </b>
 ```javascript
 //server.component.ts => 
