@@ -8,7 +8,7 @@
 <b> Databinding - To parse values from ts to html (Input) </b>
 ```javascript
 //server.component.ts => 
-import { Component , OnInit ,<b> Input </b>};
+import { Component , OnInit , Input };
 
 // @Input is a decorator , without it element can't be imported
 @Input() element : {type:string,name:string,content: string};
