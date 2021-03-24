@@ -5,48 +5,6 @@
 - ng serve
 
 
-<b> Databinding - To parse values from ts to html (Input) </b>
-```javascript
-//server.component.ts => 
-import { Component , OnInit , Input };
-
-// @Input is a decorator , without it element can't be imported
-@Input() element : {type:string,name:string,content: string};
-// if we use @Input('srvElem') element
-// using element is no longer possible , can be imported only using srvElem  => [srvElem]
-
-// app.component.ts  =>
- serverElements = [{type:'server', name:'Server_tomcat' , content: 'For developers only'}];
- //server.component.html =>
- <app-server * ngFor ="let serverElement of serverElements " [element]="serverElements"></app-server>
- <app-server * ngFor ="let serverElement of serverElements " [srvElem]="serverElement"></app-server>
-```
-<b> 2 way Databinding - To emit event / cache the data passed (Input) </b>
-```javascript
-// app.component.html =>
-<app-cockpit (serverCreated)="onServerAdded($event)"></app-cockpit>
-
-// app.component.ts  =>
-onServerAdded(serverData: {serverName:string, serverContent:string}){
-this.serverElements.push({
-type :'server',
-name : serverData.serverName,
-content : serverData.serverContent
-})
-
-//cockpit.component.ts 
-newserverName='';
-newserverContent='';
-@Output() serverCreated = new EventEmitter<serverName: string , serverContent: string}>();
-
-onAddServer(){
-this.serverCreated.emit({
-serverName : this.newserverName,
-serverContent : this.newserverContent
-});
-}
-```
-
 <img src="fullstack.jpeg">
 
 <b>Course Outline</b>
