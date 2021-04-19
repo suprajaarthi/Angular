@@ -1,6 +1,8 @@
 # Angular-Basics
 Install Firebase:
 
+npm install --save-dev @angular-devkit/build-angular
+
 npm install firebase@4.6.1 angularfire2@5.0.0-rc.3 --save
 
 - ng new my-first-project
