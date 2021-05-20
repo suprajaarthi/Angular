@@ -1,5 +1,6 @@
 # Angular-Basics
 Install Firebase:
+![1621500185584](https://user-images.githubusercontent.com/51900501/118948329-cdccdf00-b975-11eb-8838-a3ba412387a1.png)
 
 npm install --save-dev @angular-devkit/build-angular
 
