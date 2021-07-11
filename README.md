@@ -49,3 +49,20 @@ Resource Materials
 
 Then we'll learn about Ionic and NativeScript. 
 And then also Server-side development using Node and Node ecosystem.  
+
+Databinding
+components
+Directives
+Services & Dependency Injection
+Routing
+Observables
+Forms
+HTTP Requests
+Authentication
+Dynamic components
+Modules
+NgRx
+Angular universal
+Animations
+Adding Offline Capabilities
+Unit testing
